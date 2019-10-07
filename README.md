@@ -1,7 +1,9 @@
 # MXNet-Unet
 Use the library for Deep Learning, [MXNet](http://mxnet.incubator.apache.org/) to achieve this project.
-Note: In order to get output of the same size as the input, padding is added to the convolution layer 
-and the upper sampling layer is modified. 
+
+**Note: **
+- **In order to get output of the same size as the input, padding is added to the convolution layer and the upper sampling layer is modified. (See model.py)**
+- **You must modify the parameters, 'COLORMAP' and 'CLASSES'(if it was used), where our labels are defined. (See settings.py)**
 
 You can also use other methods to implement up-sampling, where only the transposed convolution layer is used.
 
